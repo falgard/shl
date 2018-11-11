@@ -1,0 +1,29 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.55c70955-3131-483e-9870-d0bcf31a921a",
+      "was_cloned": false,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "arn:aws:lambda:eu-west-1:414838389962:function:swedish-hockey-league-skill-dev-skill"
+              }
+            }
+          }
+        }
+      },
+      "resources": {
+        "manifest": {
+          "eTag": "2768ea9e566fc2693db1a0e843fbd957"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "68c6ec32cd3621addb8376f29043d409"
+          }
+        }
+      }
+    }
+  }
+}
